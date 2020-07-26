@@ -1,7 +1,8 @@
 <html>
 <head>
     <title>My CV</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" media="print" href="./style.css" />
+    <link rel="stylesheet" media="screen" href="./style.css" />
 </head>
 <body style="margin:0;padding:0">
     <div id="cvo-body">
@@ -52,14 +53,28 @@
                         <span id="cvo-profile-website">vo.nhut3</span>
                     </div>
                 </div>
-                <div id="cvo-objective" class="cvo-block">
+                <div id="cvo-education" class="cvo-block">
                     <div class="cvo-block-header">
-                        <span id="cvo-objective-blocktitle">CAREER OBJECTIVE</span>
+                        <span id="cvo-education-blocktitle">Education</span>
                     </div>
-                    <div class="cvo-block-body">
-                        <div id="cvo-objective-objective">I want to become a valued staff, an excellent development, contribute significantly to the development of the company and the project.<br>Try to learning as much as possible and doing my best in order to accomplish my tasks.<br>I hope to work in the dynamic and professional environment and have promotion opportunities.</div>
+                    <div id="education-table" class="cvo-block-body">
+                        <div class="row ">
+                            <hr>
+                            <div class="cvo-education-time">
+                                <span class="time-background">
+                                    <span class="cvo-education-start">July 2012</span>
+                                    - <span class="cvo-education-end">August 2015</span>
+                                </span>
+                            </div>
+                            <div class="cvo-education-school-wraper">
+                                <span class="cvo-education-school">INDUSTRIAL UNIVERSITY OF HO CHI MINH CITY</span>
+                            </div>
+                            <div><span class="cvo-education-title">Major: Information Technology</span></div>
+                            <div class="cvo-education-details">GPA: 6.2/10</div>
+                        </div>
                     </div>
-                </div> <div id="cvo-skillrate" class="cvo-block">
+                </div>
+                <div id="cvo-skillrate" class="cvo-block">
                     <div class="cvo-block-header"><span id="cvo-skillrate-blocktitle">Skills</span></div>
                     <div id="skillrate-table" class="cvo-block-body">
                         <div class="row">
@@ -87,32 +102,8 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div><span class="cvo-skillrate-title">Javascript</span></div>
+                            <div><span class="cvo-skillrate-title">Javascript(extensions:Jquery, Reactjs, Angularjs, Nodejs)</span></div>
                             <div class="cvo-skillrate-bar" bval="4" rate-value="4">
-                                <span class="cvo-skillrate-value"></span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div><span class="cvo-skillrate-title">Jquery</span></div>
-                            <div class="cvo-skillrate-bar" bval="4" rate-value="4">
-                                <span class="cvo-skillrate-value"></span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div><span class="cvo-skillrate-title">React</span></div>
-                            <div class="cvo-skillrate-bar" bval="3" rate-value="3">
-                                <span class="cvo-skillrate-value"></span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div><span class="cvo-skillrate-title">Angular</span></div>
-                            <div class="cvo-skillrate-bar" bval="3" rate-value="3">
-                                <span class="cvo-skillrate-value"></span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div><span class="cvo-skillrate-title">Node</span></div>
-                            <div class="cvo-skillrate-bar" bval="3" rate-value="3">
                                 <span class="cvo-skillrate-value"></span>
                             </div>
                         </div>
@@ -160,24 +151,17 @@
         </div>
         <div class="cvo-col-7">
             <div id="group-right">
-                <div id="cvo-education" class="cvo-block">
+                <div id="cvo-objective" class="cvo-block">
                     <div class="cvo-block-header">
-                        <span id="cvo-education-blocktitle">Education</span>
+                        <span id="cvo-objective-blocktitle">Career Objective</span>
                     </div>
-                    <div id="education-table" class="cvo-block-body">
-                        <div class="row ">
-                            <hr>
-                            <div class="cvo-education-time">
-                                <span class="time-background">
-                                    <span class="cvo-education-start">july 2012</span>
-                                    - <span class="cvo-education-end">AUGUST 2015</span>
-                                </span>
-                            </div>
-                            <div class="cvo-education-school-wraper">
-                                <span class="cvo-education-school">INDUSTRIAL UNIVERSITY OF HO CHI MINH CITY</span>
-                            </div>
-                            <div><span class="cvo-education-title">Major: Information Technology</span></div>
-                            <div class="cvo-education-details">GPA: 6.2/10</div>
+                    <div class="cvo-block-body">
+                        <div id="cvo-objective-objective">
+                            <span>I will use my accumulated experience to create the highest value for the company.</span>
+                            <br />
+                            <span> At the same time, increase your personal experience to develop and serve the company.</span>
+                            <br />
+                            <span>I hope to work in the dynamic and professional environment and have promotion opportunities.</span>
                         </div>
                     </div>
                 </div>
@@ -199,7 +183,16 @@
                                 <span class="cvo-experience-company">Thế giới di động</span>
                             </div>
                             <div><span class="cvo-experience-position">Web Developer</span></div>
-                            <div class="cvo-experience-details">Developing full applications in MVC5.<br><b>ERP</b><br>+ Role: Developer<br>+ Technologies used: MVC5, C#, Web Service, Oracle, Posgrest,, Reactjs,...<br>+ Tools: Visual studio 2017, Git, SVN,...<br><br></div>
+                            <div class="cvo-experience-details">
+                                <span>Developing full applications in MVC5.</span><br />
+                                <b>ERP</b><br>
+                                <span>+ Role: Developer</span><br />
+                                <span>+ Technologies used: MVC5, .Net Core, C#, Oracle, Postgresql, Reactjs,...</span><br />
+                                <span>+ Source control: Git, SVN,...</span><br />
+                                <span>+ Server: IIS</span><br />
+                                <span>+ IDE: Visual studio,...</span><br />
+                                <br/>
+                            </div>
                         </div>
                         <div class="row ">
                             <hr>
@@ -250,9 +243,11 @@
                 </div>
             </div>
         </div>
-        <div id="cv-watermark">
-            © topcv.vn
-        </div>
     </div>
+    <style>
+        body {
+            -webkit-print-color-adjust: exact !important;
+        }
+    </style>
 </body>
 </html>
